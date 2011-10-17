@@ -44,14 +44,14 @@ array(3) {
   [1]=>
   int(2)
   [2]=>
-  string(24) "Keyspace already exists."
+  string(48) "Keyspace names must be case-insensitively unique"
 }
 -- SILENT -- 
 -- WARNING -- 
 
-Warning: PDO::exec(): CQLSTATE[HY000] [2] Keyspace already exists. in %s on line %d
+Warning: PDO::exec(): CQLSTATE[HY000] [2] Keyspace names must be case-insensitively unique in /home/gasol/code/php-pdo_cassandra/tests/013-errorhandling.php on line 17
 -- WARNING -- 
 -- EXCEPTION -- 
-CQLSTATE[HY000] [2] Keyspace already exists.
+CQLSTATE[HY000] [2] Keyspace names must be case-insensitively unique
 -- EXCEPTION -- 
 OK
